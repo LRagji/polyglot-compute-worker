@@ -200,6 +200,7 @@ Use consistent naming conventions across different parts of your codebase:
 | **Postgres Objects** | snake_case | `user_accounts`, `order_items`, `created_at` |
 | **JSON Keys** | camelCase | `{ firstName: "John", lastName: "Doe" }` |
 | **Environment Variables** | UPPERCASE_WITH_UNDERSCORES | `DATABASE_URL`, `API_KEY`, `LOG_LEVEL` |
+| **Interface Files** | i-small-kebab-case | `i-hello-world.ts`, `i-bob.ts`, `i-correct.ts` |
 
 ### Example
 ```typescript
